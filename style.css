@@ -5,7 +5,7 @@
 
 body{
     background-color: white;
-    margin: 0 200px;
+    margin: 0 250px;
     
 }
 
@@ -120,24 +120,28 @@ main>section{
 
 .article-text{
     width: 23%;
-    height: 350px;
-    background-color: rgba(171, 207, 231, 1);
     float: left;
+}
+
+.row2{
+    color: gray;
 }
 
 .row2>div{
     width: 50%;
-    height: 350px;
-    background-color: rgba(171, 207, 231, 1);
     float: left;
     margin: 0 2%;
 }
 
+.titles{
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
 
 /* Footer */
 #site_footer{
     height: 70px;
-    background-color: blueviolet;
     margin-top: 20px;
 }
 
