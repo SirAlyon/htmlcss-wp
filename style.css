@@ -1,0 +1,132 @@
+/* Common */
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0 200px;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Uility */
+
+
+
+/* Header */
+
+#site_header{
+    height: 120px;
+    background-color: white;
+}
+
+.logo{
+    height: 50%;
+    background-color: yellow;
+}
+
+.menu{
+    height: 50%;
+    background-color:bisque;
+}
+
+/* Main */
+
+.content{
+    height: 600px;
+    background-color: rgba(253, 255, 165, 1);
+    position: relative;
+    margin: 20px 0px;
+    
+}
+
+.content-text{
+    height: 150px;
+    width: 55%;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    line-height: 150px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+main>section{
+    background-color: rgb(65, 65, 245);
+}
+
+.leadership{
+    height: 60px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.articles{
+    height: 600px;
+}
+
+.row{
+    padding: 5px 0px 10px 0px;
+}
+
+.article-img{
+    width: 23%;
+    height: 225px;
+    background-color: rgba(171, 207, 231, 1);
+    float: left;
+    border-radius: 15px;
+}
+
+.row > div{
+    width: 50%;
+    height: 225px;
+    background-color: rgba(171, 207, 231, 1);
+    float: left;
+    margin: 0 2%;
+    border-radius: 15px;
+}
+
+.article-text{
+    width: 23%;
+    height: 350px;
+    background-color: rgba(171, 207, 231, 1);
+    float: left;
+}
+
+.row2>div{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(171, 207, 231, 1);
+    float: left;
+    margin: 0 2%;
+}
+
+.row2{
+   
+}
+
+/* Footer */
+#site_footer{
+    height: 70px;
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+
+footer>div span:first-child{
+    color: red;
+}
+
+footer>div{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 70px;
+    vertical-align: middle;
+}
