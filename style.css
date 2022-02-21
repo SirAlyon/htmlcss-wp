@@ -17,6 +17,19 @@ body{
     clear: both;
 }
 
+.img-size:hover{
+    transform: scale(1.05);
+}
+
+ul>li:hover{
+    transform: scale(1.2);
+    transition: transform .1s;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
 /* Header */
 
 #site_header{
@@ -94,8 +107,10 @@ body{
     padding-left: 5px;
 }
 
-.row{
+.row,
+.row3{
     padding: 5px 0px 10px 0px;
+    
 }
 
 .article-img{
@@ -108,37 +123,38 @@ body{
     float: left;
     margin: 0 2%;
     border-radius: 15px;
+    color: gray;
 }
 
 .img-size{
-    object-fit: contain;
     width: 100%;
     height: 260px;
     object-fit: cover;
     filter: brightness(85%);
     border-radius: 10px;
     user-select: none;
+    transition: transform .2s;
+    box-shadow: 0px 0px 5px gray;
 }
 
 .article-text{
     width: 23%;
     float: left;
-}
-
-.row2{
     color: gray;
-}
-
-.row2>div{
-    width: 50%;
-    float: left;
-    margin: 0 2%;
 }
 
 .titles{
     color: black;
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.row3>div{
+    width: 23%;
+    float: left;
+    margin: 0 2%;
+    color: gray;
 }
 
 /* Footer */
